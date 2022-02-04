@@ -2,7 +2,7 @@ body {
   background: #ddd;
   margin: 1rem;
   padding: 1rem;
-  max-width: 500px;
+  max-width: 750px;
   margin: 2rem auto;
   font-family: "Open Sans", sans-serif;
 }
@@ -29,10 +29,70 @@ a:visited {
 }
 
 
-input {
+/* input {
 	display: block;
-}
+} */
 
 img {
 	max-width: 300px;
+}
+
+section {
+	margin-top: 2.5rem;
+	/* box-shadow: 5px 5px 10px black; */
+	
+}
+
+.partFive {
+	border-radius: 5px;
+	background-color: #ffd449;
+	border: none;
+	text-align: center;
+	font-size: 1.1rem;
+	padding: 10px;
+	margin-right: 1rem;
+
+}
+
+#profileTitle {
+	font-size: 3rem;
+	font-family: cursive;
+}
+
+button:hover {
+	cursor: pointer;
+}
+
+#interestsList {
+	display: flex;
+	flex-wrap: wrap;
+	max-width: 750px;
+}
+
+.interestItem {
+	list-style: none;
+	display: flex;
+	flex-direction: column;
+}
+
+.interestItem > img {
+	margin-right: 1rem;
+	margin-bottom: 1rem;
+}
+
+h3 {
+	margin-bottom: 0;
+}
+
+#animeList > li {
+	margin-bottom: .5rem;
+}
+
+#animeRecommend {
+	padding-left: 1rem;
+	margin-top: 2.5rem;
+}
+
+#animeRecommend > input:hover {
+	cursor: pointer;
 }

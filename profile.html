@@ -1,6 +1,97 @@
-Not implemented yet! 
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Profile</title>
+	<link href="styles.css" rel="stylesheet">
 
-<br>
-<br>
+</head>
+<body>
+	<nav>
+		<ol>
+	        <li class="crumb"><a href="./home.html">Home</a></li>
+	        <li class="crumb"><a href="./profile.html">Profile</a></li>
+	        <li class="crumb"><a href="./about.html">About</a></li>
+	    </ol>
+	</nav>
 
-<a href="./home.html"><< Back </a>
+   <main>
+      <section>
+         <h1 id="profileTitle">Peter's Profile</h1>
+         <p>Here you can get to know me a little! But just a little since my time is limited and Scott said he doesn't care about the content so much as us having all the correct elements</p>
+      </section>
+
+      <section>
+         <button class="partFive" id="color">My Favorite Color</button>
+         <button class="partFive" id="place">My Favorite Place</button>
+         <button class="partFive" id="ritual">My Favorite Ritual</button>
+      </section>
+
+      <section>
+         <h2>Career Goals</h2>
+         <p>Need you ask? I want to be a software engineer! Ideally I would like to build non web-based applications in python, but I recognize that most programming jobs are web related. I'll look for something like that, but initially out of DevMountain I'll be happy with any programming job with a good company. Gotta get some experience before being too picky</p>
+      </section>
+
+      <section>
+         <h2>Skills?</h2>
+         <p>This is always an awkward section because it often overlaps with hobbies.</p>
+         <ul>
+            <li>Cooking</li>
+            <li>Programming</li>
+            <li>Driving - <i>what?!</i> That's a skill. I've never gotten a ticket</li>
+         </ul>
+      </section>
+
+      <section>
+         <h2>Interests</h2>
+         <ul id="interestsList">
+            <li class="interestItem">
+               <p>Audio Equipment</p>
+               <img src="http://schiit.com/public/upload/general/imagecache_thumbnail_product_gallery_large/val2-main-1000.jpg" alt="Schiit Valhalla 2">
+            </li>
+            <li class="interestItem">
+               <p>Gaming</p>
+               <img src="https://images.unsplash.com/photo-1587202372616-b43abea06c2a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80" alt="Gaming computer">
+            </li>
+            <li class="interestItem">
+               <p>Cooking</p>
+               <img src="https://images.unsplash.com/photo-1605522469906-3fe226b356bc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1744&q=80" alt="cooking">
+            </li>
+            <li class="interestItem">
+               <p>Cars</p>
+               <img src="https://images.unsplash.com/photo-1588127333419-b9d7de223dcf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1738&q=80" alt="s550 Shelby GT350">
+            </li>
+            <li class="interestItem">
+               <p>Mechanical Keyboards</p>
+               <img src="https://3dmodelshop.pro/images/stories/virtuemart/product/2020/06/Ultra-thin-cases-for-Keebio-Iris-rev.4-keyboard.png" alt="iris rev4 keyboard">
+            </li>
+            <li class="interestItem">
+               <p>Anime</p>
+               <img src="https://images.unsplash.com/photo-1607604276583-eef5d076aa5f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1974&q=80" alt="anime pictures on a wall">
+            </li>
+         </ul>
+      </section>
+
+      <section>
+         <h3>Are you and anime fan too?</h3>
+         <p>If so, I'd love recommendations. You can check what I have already seen <a href="https://anilist.co/user/LightFromAStone/animelist">here</a></p>
+      
+         <form id="animeRecommend">
+            <ol id="animeList">
+               <li>
+                  <input type="text" placeholder="Anime title">
+                  <button type="button" id="addShow">&#43</button>
+               </li>
+            </ol>
+            <input type="submit" value="Recommend">
+         </form>
+      </section>
+      <br><br><br><br><br>
+
+   </main>
+
+
+
+   
+   <script src="profile.js"></script>
+</body>
+</html>
